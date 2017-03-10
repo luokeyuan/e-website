@@ -139,6 +139,7 @@ a{
 	left: 0;
 	top: 35px;
 	width: 100%;
+	z-index: 999;
 }
 .shopClass_item a:hover{
 	text-decoration: underline;
@@ -167,28 +168,22 @@ a{
 .shopClass_item dt{
 	background: url(../icons/bt_sj.png) right center no-repeat;
 }
-.shopClass_active{
+.shopClass_item:hover{
 	background:#fff;
 	border-left: 1px solid #4593FD;
 	padding-left:9px;
 }
-.shopClass_active dt a,.shopClass_active dd a{
+.shopClass_item:hover dt a,.shopClass_item:hover dd a{
 	color:#000;
 }
-.shopClass_active dt .newLink{
+.shopClass_item:hover dt .newLink{
 	color:#fff;
 	text-decoration: none;
 }
-.shopClass_active dt{
+.shopClass_item:hover dt{
 	background:none;
 }
 /*二级菜单*/
-.shopList_hide{
-	display: none;
-}
-.shopList_show{
-	display: block;
-}
 .shopClass_list{
 	position: absolute;
 	left: 189px;
@@ -199,6 +194,8 @@ a{
 	padding-right: 20px;
 	z-index: 99;
 	background: #fff;
+	display: none;
+	z-index: 999;
 }
 .shopList_item{
 	border-bottom: 1px solid #ddd;

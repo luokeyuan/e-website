@@ -1,12 +1,12 @@
-.hide{
-  display: none;
-}
 .bread{
   margin: 24px 0 14px;
 }
 .shop-content{
   background: #fff;
   border: 1px solid #ccc;
+}
+.shopClass_show{
+  display: none;
 }
 
 /* shop-left */
@@ -35,7 +35,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  display: block;
+  display: none;
   cursor: move;
 }
 .show-pic .pic-large{
@@ -46,7 +46,7 @@
   width: 400px;
   height: 400px;
   overflow: hidden;
-  display: block;
+  display: none;
 }
 .show-pic .pic-large img{
   width: 600px;
@@ -54,6 +54,28 @@
   position: absolute;
   left: 0;
   top: 0
+}
+.shop-left .thums-nav{
+  width: 300px;
+  margin: 0 auto;
+  font-size: 0;
+}
+.thums-nav ul{
+  text-align: center;
+}
+.thums-nav ul li{
+  display: inline-block;
+  padding: 5px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+.thums-nav ul li img{
+  width: 48px;
+  height: 48px;
+}
+.thums-nav ul li.active{
+  border: 1px solid #ddd;
 }
 
 /* shop-right */

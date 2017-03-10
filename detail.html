@@ -6,12 +6,6 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/detail.css">
-  <style>
-/*    .egrserge{
-      text-align:center;
-      padding-top: 30px;
-    }*/
-  </style>
 </head>
 <body>
   <div class="headerBar">
@@ -28,7 +22,7 @@
     <div class="logoBar">
       <div class="comWidth">
         <div class="logo fl">
-          <img src="./images/logo.png" alt="慕课网">
+          <a href="index.html"><img src="./images/logo.png" alt="慕课网"></a>
         </div>
         <div class="search_box fl">
           <input type="text" class="search_text fl">
@@ -43,8 +37,8 @@
     <div class="navBar">
       <div class="comWidth">
         <div class="shopClass fl">
-          <h3>全部商品分类<i></i></h3>
-          <div class="shopClass_show hide">  <!-- //一级菜单 -->
+          <h3 id="class_title">全部商品分类<i></i></h3>
+          <div class="shopClass_show">  <!-- //一级菜单 -->
             <dl class="shopClass_item">
               <dt><a href="#">手机</a>&nbsp;<a href="#">数码</a>&nbsp;<a href="#" class="newLink">合约机</a></dt>
               <dd><a href="#">荣耀3x</a>&nbsp;<a href="#">单反</a>&nbsp;<a href="#">智能设备</a></dd>
@@ -66,7 +60,7 @@
               <dd><a href="#">进口</a>&nbsp;<a href="#">方便面</a>&nbsp;<a href="#">零食</a>&nbsp;<a href="#">保健</a></dd>
             </dl>
           </div>
-          <div class="shopClass_list shopList_hide"> <!-- 二级菜单 -->
+          <div class="shopClass_list"> <!-- 二级菜单 -->
             <ul class="shopList_item">
               <li class="shopList_title"><span>电脑整机</span></li>
               <li class="shopList_items">
@@ -191,21 +185,28 @@
       <div class="shop-left fl">
         <div class="show-pic" id="show_pic">
           <div class="pic" id="pic">
-            <img src="images/products/product01/normal/2b2eb1a3c5cc730f7829_360.jpg" alt="normal">
+            <img src="images/products/product01/normal/01.jpg" alt="normal" id="normal">
             <div class="magnifier" id="magnifier"></div>
           </div>
           <div class="pic-large" id="pic_big">
-            <img src="images/products/product01/big/58343dc1Nbb3d4722.jpg" alt="big" id='big'>
+            <img src="images/products/product01/big/01.jpg" alt="big" id='big'>
           </div>
+        </div>
+        <div class="thums-nav">
+          <ul id="thums_nav">
+            <li class="active"><img src="images/products/product01/small/01.jpg" alt=""></li>
+            <li><img src="images/products/product01/small/02.jpg" alt=""></li>
+            <li><img src="images/products/product01/small/03.jpg" alt=""></li>
+          </ul>
         </div>
       </div>
       <div class="shop-right fr">
-        <h2 class="title">全网底价 Apple 苹果 iPad mini 16G wifi版 平板电脑 前白后银 MD531CH/A 银白两色生产批次不同混合发货</h2>
+        <h2 class="title">一加手机3T (A3010) 6GB+64GB 枪灰版 全网通 双卡双待 移动联通电信4G手机</h2>
         <div class="price">
-          <span class="text text-title">慕课价</span><span class="money">￥</span><span class="number">1999.00</span>
+          <span class="text text-title">慕课价</span><span class="money">￥</span><span class="number">2699.00</span>
         </div>
         <div class="preferential">
-          <span class="text text-title">优惠</span><span class="icon">满换购</span><span class="text">购ipad加价优惠够配件或USB充电插座</span>
+          <span class="text text-title">优惠</span><span class="icon">满换购</span><span class="text">购手机加价优惠够配件或USB充电插座</span>
         </div>
         <div class="choice">
           <dl class="address clearFix">
@@ -336,10 +337,10 @@
       <div class="more-right fr">
         <div class="product-info">
           <ul class="nav clearFix">
-            <li class="fl active"><a href="javascript:;">产品介绍</a></li>
-            <li class="fl"><a href="javascript:;">商品评价</a></li>
+            <li class="fl active" id="pro_intro"><a href="javascript:;">产品介绍</a></li>
+            <li class="fl" id="comment"><a href="javascript:;">商品评价</a></li>
           </ul>
-          <div class="product-intro">
+          <div class="product-intro" id="product_intro">
             <a class="link"><img src="images/pro_ad.jpg" alt="商业广告"></a>
             <div class="intro-item">
               <h3 class='title'>强烈推荐</h3>
@@ -355,7 +356,7 @@
               </div>
             </div>
           </div>
-          <div class="product-comment">
+          <div class="product-comment" id="product_comment">
             <h3 class="title">商品评价</h3>
             <div class="grade clearFix">
               <div class="left fl">
