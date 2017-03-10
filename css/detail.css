@@ -14,6 +14,47 @@
   width: 310px;
   height: 100%;
 }
+.show-pic{
+  position: relative;
+  font-size: 0;
+  margin: 5px auto;
+}
+.show-pic,.show-pic .pic{
+  width: 270px;
+  height: 270px;
+  position: relative;
+}
+.show-pic .pic img{
+  width: 270px;
+  height: 270px;
+}
+.show-pic .pic .magnifier{
+  width: 180px;
+  height: 180px;
+  background: rgba(251,252,63,0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  cursor: move;
+}
+.show-pic .pic-large{
+  position: absolute;
+  border: 1px solid #eee;
+  top: 0px;
+  left: 275px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  display: block;
+}
+.show-pic .pic-large img{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 0;
+  top: 0
+}
 
 /* shop-right */
 .shop-content .shop-right{
