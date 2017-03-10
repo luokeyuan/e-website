@@ -1,0 +1,130 @@
+.shopClass_show{
+	display: none;
+}
+.banner{
+	margin-top: 18px;
+}
+.shopClass:hover .shopClass_show{
+	display: block;
+}
+/* 分类栏 */
+.digitClass{
+	width: 182px;
+	border: 1px solid #D7D7D7;
+	margin-right: 5px;
+	background-color: #F3F3F3;
+}
+.digitClass h2{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-align: center;
+	border-bottom: 1px solid #D7D7D7;
+	padding: 10px 0;
+}
+.digitClass .digitClass_item{
+	font-size: 14px;
+	padding-left: 18px;
+	border-bottom: 1px dotted #D7D7D7;
+	padding-bottom: 4px;
+}
+.digitClass .digitClass_item a:hover{
+	text-decoration: underline;
+}
+.digitClass .digitClass_item:last-child{
+	border: none;
+}
+.digitClass .digitClass_item dt{
+	padding: 10px 0 8px;
+	font-weight: bold;
+}
+.digitClass .digitClass_item dd{
+	width: 82px;
+	float: left;
+	height: 24px;
+	line-height: 24px;
+	color: #555;
+}
+/* 商品列表栏 */
+.digit-list{
+	width: 811px;
+	margin-top: 20px;
+}
+.digit-list-item{
+	margin: 10px 0 30px;
+}
+.digit-list .digit-list-item h2{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: "Microsoft YaHei" "微软雅黑";
+	padding-left: 5px;
+}
+.digit-list-item .line-cut{
+	width: 100%;
+	height: 2px;
+	background: #CCCCCC;
+}
+.digit-list-item .line-cut .line-process{
+	width: 230px;
+	height: 2px;
+	background: #096DBA;
+}
+.digit-list-item .digit-product-list{
+	width: 100%;
+	padding-left: 10px;
+}
+.digit-list-item .digit-product-list .product-image{
+	display: table-cell;
+	text-align: center;
+	width: 230px;
+	height: 140px;
+	vertical-align: middle;
+}
+.digit-list-item .digit-product-list .digit-product-item{
+	width: 180px;
+	float: left;
+	margin: 10px;
+}
+.digit-product-list .digit-product-item .product-title a:hover{
+	text-decoration: underline;
+}
+.digit-product-list .digit-product-item .product-title{
+	width: 100%;
+	height: 34px;
+	font-size: 12px;
+	font-weight: normal;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.digit-product-list .digit-product-item .price{
+	margin-top: 10px;
+	color: red;
+}
+.price .sign{
+	font-size: 12px;
+}
+.price .number{
+	font-size: 14px;
+	font-weight: bold;
+}
+.digit-product-list .digit-product-item .comment{
+	widows: 100%;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+}
+.digit-product-item .comment .star,.star .star-process{
+	height: 12px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.digit-product-item .comment .star{
+	display: inline-block; 
+	width: 73px;
+	background-image: url('../images/star01.png');
+	margin: 0 2px;
+}
+.star .star-process{
+	width: 100%;
+	background-image: url('../images/star.png');
+}

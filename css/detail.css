@@ -1,0 +1,500 @@
+.hide{
+  display: none;
+}
+.bread{
+  margin: 24px 0 14px;
+}
+.shop-content{
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+/* shop-left */
+.shop-content .shop-left{
+  width: 310px;
+  height: 100%;
+}
+
+/* shop-right */
+.shop-content .shop-right{
+  width: 687px;
+  border-left: 1px solid #ccc;
+}
+.shop-content .shop-right .title{
+  font-size: 16px;
+  margin: 26px 0 0 24px;
+}
+.shop-right span.text{
+  color: #666;
+  font-size: 12px;
+}
+.shop-right span.text-title{
+  display: inline-block;
+  width: 60px;
+}
+.shop-content .shop-right .price{
+  margin: 10px 0 0 24px;
+}
+.shop-right .price .money{
+  font-size: 10px;
+  color: #D70000;
+  font-weight: bold;
+}
+.shop-right .price .number{
+  font-size: 20px;
+  color: #D70000;
+  font-weight: bold;
+}
+.shop-content .shop-right .preferential{
+  margin: 10px 0 0 24px;
+}
+.preferential .icon{
+  display: inline-block;
+  width: 55px;
+  height: 18px;
+  line-height: 18px;
+  text-indent: 16px;
+  font-size: 12px;
+  color: #fff;
+  background-image: url('../icons/Arrow_yellow.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-right: 6px;
+}
+.shop-content .shop-right .choice{
+  width: 655px;
+  overflow: hidden;
+  margin: 14px auto;
+  padding: 20px 0 9px 15px;
+  background-color: #F2F2F2;
+}
+.choice dl{
+  margin-bottom: 16px;
+}
+.choice dl dd{
+  width: 580px;
+}
+.choice dd ul li{
+  float: left;
+  margin-bottom: 8px;
+}
+.choice dd ul{
+  padding-bottom: -8px;
+}
+.choice dd ul li a{
+  display: block;
+  text-align: center;
+  border: 1px solid #BFBFBF;
+  margin-right: 10px;
+  background: #fff;
+}
+.choice dd ul li a:hover{
+  border:1px solid #317EE7;
+}
+.choice dl.address dt{
+  line-height: 24px;
+}
+.choice dl.address select{
+  border: 1px solid #BFBFBF;
+  width: 150px;
+  height: 22px;
+  background-color: #fff;
+}
+.choice dl.color dt{
+  line-height: 34px;
+}
+.choice dl.color a{
+  width: 82px;
+  height: 32px;
+  line-height: 32px;
+  color:#000;
+  font-size: 12px;
+}
+.choice dl.size dt{
+  line-height: 26px;
+}
+.choice dl.size a{
+  height: 24px;
+  color: #666;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 0 6px;
+}
+.choice dl.number dt{
+  line-height: 34px;
+}
+.choice dl.number .controller{
+  display: block;
+  width: 82px;
+  height: 32px;
+  border: 1px solid #BFBFBF;
+}
+dl.number .controller input{
+  width: 50px;
+  height: 32px;
+  border-left: 1px solid #BFBFBF;
+  border-right: 1px solid #BFBFBF;
+  text-align: center;
+  color:#666;
+  background: #fff;
+}
+dl.number .controller .add,dl.number .controller .reduce{
+  width: 15px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  color: #333;
+}
+.choice dl.number .extra{
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 8px;
+  color: #666;
+  font-size: 14px;
+}
+.extra span.number{
+  color:#FC7700;
+  font-weight: bold;
+}
+.shop-right .hasChoice{
+  margin: 23px 0 13px 28px;
+  color: #666;
+  font-size: 14px;
+  font-weight: bold;
+}
+.shop-right .hasChoice .info{
+  color:#0479CA;
+  margin-left: 10px;
+}
+.shop-right .button{
+  font-size: 0;
+  height: 90px;
+  padding-left:84px;
+}
+.shop-right .button button{
+  width: 184px;
+  height: 48px;
+  border: none;
+  background-color: #FD8900;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+  background-image: url('../icons/shopCar.jpg');
+  background-repeat: no-repeat;
+  background-position: 28px 14px;
+  text-align: left;
+  text-indent: 70px;
+  cursor: pointer;
+}
+.shop-right .button .divide{
+  display: inline-block;
+  font-size: 12px;
+  width: 1px;
+  height: 90px;
+  background: #E5E5E5;
+  margin: 0 40px;
+}
+.shop-right .alert{
+  color:#999999;
+  font-size: 12px;
+  padding:18px 0 22px 28px;
+}
+
+/* more */
+.more{
+  margin-top: 14px;
+}
+/* more-left */
+.more .more-left{
+  width: 190px;
+}
+.more-left .similar{
+  border:1px solid #ccc;
+  margin-bottom: 10px;
+  background: #fff;
+}
+.similar h2{
+  font-size: 16px;
+  height: 39px;
+  line-height: 39px;
+  border-bottom: 1px solid #ccc;
+  background: #F3F3F3;
+  padding-left: 10px;
+  color: #333;
+}
+.similar ul{
+  width: 160px;
+  margin: 0 auto 18px;
+}
+.similar ul li .picture{
+  width: 160px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  overflow: hidden;
+}
+.similar ul li .picture img{
+  vertical-align: middle;
+}
+.similar ul li p{
+  height: 36px;
+  overflow: hidden;
+  text-overlfow:clip;
+}
+.similar ul li p a{
+  font-size: 12px;
+  color: #999;
+}
+.similar ul li p a:hover{
+  text-decoration: underline;
+}
+.similar ul li .price{
+  color:#D70000;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* more-right */
+.more .more-right{
+  // left: 212px;
+  width: 788px;
+}
+.product-info .nav{
+  width: 100%;
+}
+.product-info ul.nav li{
+  width: 392px;
+  border: 1px solid #ccc;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.product-info ul.nav li a{
+  display: block;
+  color: #000;
+}
+.product-info ul.nav li.active a{
+  color: #fff;
+}
+.product-info ul.nav li.active{
+  background: #0479CA;
+  border-color:#0479CA;
+}
+/* 商品详情 */
+.product-intro{
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 786px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 28px 0 30px;
+}
+.product-intro .link{
+  display: block;
+  width: 100%; 
+  text-align: center;
+}
+.product-intro .link img{
+  max-width: 694px;
+}
+.product-intro .intro-item{
+  width: 746px;
+  margin: 42px auto 0;
+}
+.product-intro .intro-item h3{
+  color: #2457A6;
+  font-size: 16px;
+  padding: 0 0 4px 8px;
+}
+.product-intro .intro-item .line{
+  width: 100%;
+  height: 2px;
+  background: #D7D7D7
+}
+.product-intro .intro-item .line .process{
+  width: 12%;
+  height: 2px;
+  background: #2457A6;
+}
+.product-intro .intro-item p{
+  color:#666;
+  margin-top: 26px;
+}
+.product-intro .intro-item .picture{
+  width: 100%;
+  text-align: center;
+}
+.product-intro .intro-item .picture img{
+  max-width: 100%;
+}
+/* 评价 */
+.product-comment{
+  border:1px solid #ccc;
+  background-color: #fff;
+}
+.product-comment h3.title{
+  color: #666;
+  font-size: 14px;
+  padding: 8px;
+}
+.product-comment .grade{
+  height: 42px;
+  margin-top: 20px;
+}
+.product-comment .grade .left{
+  width: 108px;
+  line-height: 40px;
+}
+.grade .left .number{
+  font-size: 38px;
+  color: #FF8F00;
+  margin-left: 8px;
+}
+.product-comment .grade .right{
+  width: 678px;
+  position: relative;
+}
+.grade .right ul.grade-process li{
+  float: left;
+  padding:0 20px;
+  background-color: #BDBDBD;
+  color:#fff;
+}
+.grade .right .arrow{
+  width: 28px;
+  height: 20px;
+  text-align: center;
+  color:#fff;
+  font-size: 12px;
+  background-image: url('../icons/grade_icon.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  position: absolute;
+  top: -20px;
+  left: 390px;
+}
+.grade .right p{
+  font-size: 12px;
+  color:#66667D;
+  margin-top: 2px;
+}
+.comment-content{
+  margin-top: 40px;
+  position: relative;
+}
+.comment-content .comment-nav{
+  width: 100%;
+  height: 36px;
+  background: #F2F2F2;
+}
+ul.comment-level{
+  padding-left: 10px;
+}
+ul.comment-level li{
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 14px;
+}
+ul.comment-level li.active a{
+  color: #317EE7;
+  border-bottom: 2px solid #317EE7;
+  font-weight: bold;
+  height: 34px;
+}
+ul.comment-level li a{
+  display: block;
+  color:#000;
+}
+.comment-content .extra{
+  position: absolute;
+  right: 20px;
+  top: 0;
+  text-align: center;
+}
+.comment-content .extra .current{
+  width: 86px;
+  height: 36px;
+  line-height: 36px;
+  cursor: pointer;
+}
+.comment-content .extra .others{
+  width: 86px;
+  height: 108px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 4px 2px #ccc;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.extra .others .curr,.extra .others ul li{
+  line-height: 36px;
+  height: 36px;
+}
+.extra .others ul li{
+  cursor: pointer;
+}
+.extra .others ul li:hover{
+  color: #1D7AD9;
+  background: #ccc;
+}
+.comment-list .comment-item{
+  padding: 20px 0;
+  border-bottom: 1px solid #DDDDDD;
+}
+.comment-list .comment-item .left{
+  width: 140px;
+  text-align: center;
+}
+.comment-list .comment-item .right{
+  width: 621px;
+  padding-right: 25px;
+  position: relative;
+}
+.comment-list .comment-item .right .comment-grade{
+  height: 20px;
+  line-height: 20px;
+  padding-left: 80px;
+  background: url('../images/star.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.comment-list .comment-item .right .timer{
+  position: absolute;
+  right: 25px;
+  top: 2px;
+}
+.comment-list .comment-item .right .comment-text{
+  padding: 15px 0;
+}.comment-list .comment-item .right .share a{
+  margin-right: 10px;
+  color: #085C9B;
+}
+.comment-list .comment-footer{
+  position: relative;
+  height: 44px;
+  background: #fff;
+  margin-top: 20px;
+}
+.comment-list .comment-footer .page{
+  font-size: 12px;
+  position: absolute;
+  right: 14px;
+  top: 6px;
+}
+.page a{
+  display: inline-block;
+  padding: 6px 12px;
+  border:1px solid #ddd;
+  border-radius: 3px;
+}
+.page a.active{
+  border-color: #fff;
+  color:#085C9B;
+}
+.page a:hover{
+  box-shadow: 0 0 2px 1px #ddd; 
+  color:#085C9B;
+}

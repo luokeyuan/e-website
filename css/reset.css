@@ -1,0 +1,25 @@
+body,div,ul,li,h1,h2,h3,h4,h5,h6,p,img,ul,li,input,button,dl,dt,dd{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size: 14px;
+	background-color: #F0F0F0;
+}
+img{
+	border:none;
+}
+input,select,textarea{
+	outline: none;
+	border:none;
+	background:none; //解决ie6问题
+}
+textarea{
+	resize:none;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}

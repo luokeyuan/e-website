@@ -1,0 +1,295 @@
+/*公用*/
+.comWidth{
+	width: 1000px;
+	margin:0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+a{
+	color:#666;
+}
+.clearFix:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+.clearFix{
+	zoom:1;
+}
+/*topBar*/
+.topBar{
+	background-color:#F7F7F7;
+	height: 31px;
+	line-height: 31px;
+}
+.collection{
+	background:url('../icons/collection.jpg') left center no-repeat;
+	padding-left: 19px;
+	font-weight: bold;
+}
+.topBar .rightArea{
+	color:#666;
+	margin-right: 21px;
+}
+.topBar a:hover{
+	color:#E60013;
+}
+
+/*logoBar*/
+.logoBar{
+	background:#1D7AD9;
+	height: 85px;
+}
+.logoBar .logo{
+	padding-top: 13px;
+	padding-left: 38px;
+}
+.search_box{
+	width:440px;
+	padding-top:23px;
+	padding-left: 185px;
+}
+.search_text{
+	width: 360px;
+	height: 35px;
+	padding: 0 5px;
+	background: #fff;
+}
+.search_btn{
+	width: 70px;
+	height: 35px;
+	background-color: #FF8C00;
+	color:#fff;
+	font-family: "Microsoft YaHei","微软雅黑";
+	font-size: 14px;
+}
+.shopCar{
+	width:145px;
+	height: 35px;
+	line-height: 35px;
+	background: #FF8C00;
+	margin-top: 23px;
+	margin-right: 21px;
+	color:#fff;
+	margin-right: 59px;
+}
+.shopCar .shop_text{
+	font-family: "Microsoft YaHei","微软雅黑";
+	width:87px;
+	border-right:1px solid #E27A00;
+	background: url(../icons/shopCar.jpg) 10px center no-repeat;
+	text-indent: 40px;
+}
+.shopCar .shop_num{
+	width:27px;
+	border-left: 1px solid #FF9C01;
+	background: url(../icons/shopNum.jpg) 33px center no-repeat;
+	text-align: right;
+	padding-right:29px;
+}
+/*navBar*/
+.navBar{
+	height: 35px;
+	background:#1369C0;
+}
+.navBar .shopClass{
+	width:189px;
+	position: relative;
+}
+.navBar .shopClass h3{
+	text-align: center;
+	color:#fff;
+	height: 100%;
+	line-height: 35px;
+}
+.shopClass i{
+	width: 11px;
+	height: 7px;
+	display: inline-block;
+	background: url(../icons/shopClass.png);
+	margin-left: 11px;
+}
+.navBar .nav li{
+	float: left;
+	line-height: 35px;
+}
+.navBar .nav li a{
+	color:#fff;
+}
+.navBar .nav li.active{
+	background: #4593FD;
+}
+.navBar .nav a{
+	display: block;
+	padding:0 33px;
+}
+/*一级菜单*/
+.shopClass_item{
+	padding:12px 13px 13px 10px;
+	background-color: #4593FD;
+	border-top: 1px solid #5AA1FE;
+	border-bottom: 1px solid #3487F2;
+}
+.shopClass_show{
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 100%;
+}
+.shopClass_item a:hover{
+	text-decoration: underline;
+}
+.shopClass_item dt a{
+	color:#fff;
+	font-weight: bold;
+}
+.shopClass_item dd a{
+	color:#C2D9F8;
+	font-size: 12px;
+}
+.shopClass_item dt .newLink{
+	text-decoration: underline;
+	margin-left: 4px;
+}
+.shopClass_item .newLink{
+	background:url(../icons/newLink_bg.png) left center no-repeat;
+	display: inline-block;
+	width: 48px;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+}
+.shopClass_item dt{
+	background: url(../icons/bt_sj.png) right center no-repeat;
+}
+.shopClass_active{
+	background:#fff;
+	border-left: 1px solid #4593FD;
+	padding-left:9px;
+}
+.shopClass_active dt a,.shopClass_active dd a{
+	color:#000;
+}
+.shopClass_active dt .newLink{
+	color:#fff;
+	text-decoration: none;
+}
+.shopClass_active dt{
+	background:none;
+}
+/*二级菜单*/
+.shopList_hide{
+	display: none;
+}
+.shopList_show{
+	display: block;
+}
+.shopClass_list{
+	position: absolute;
+	left: 189px;
+	top:35px;
+	width: 569px;
+	border:1px solid #ddd;
+	padding-left: 19px;
+	padding-right: 20px;
+	z-index: 99;
+	background: #fff;
+}
+.shopList_item{
+	border-bottom: 1px solid #ddd;
+	padding:13px 0;
+	position: relative;
+}
+.shopList_title{
+	width: 70px;
+	position: absolute;
+	top: 11px;
+	left: 0;
+}
+.shopList_items{
+	margin-left: 70px;
+	font-size: 0;
+}
+.shopList_title span{
+	font-size: 14px;
+	font-weight: bold;
+	color: #4B88DA;
+	margin:0;
+}
+.shopList_items li{
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 13px;
+	padding-bottom: 4px;
+}
+.shopList_items a:hover{
+	text-decoration: underline;
+}
+.shopList_btn{
+	margin-top: 15px;
+	margin-bottom: 14px;
+}
+.shopList_btn a{
+	display: inline-block;
+	background: #2785E6;
+	padding:8px 14px 6px 8px;
+	color:#fff;
+	margin-right: 10px;
+}
+.shopList_btn a span{
+	display: inline-block;
+	width: 5px;
+	height: 8px;
+	background: url(../icons/bt_sj.png) left center no-repeat;
+	margin-left: 8px;
+}
+/*banner*/
+.banner_bar{
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+.banner_bar,.imgBox img{
+	width: 811px;
+	height: 324px;
+}
+.imgBox{
+	width: 1622px;
+	height: 324px;
+}
+.imgBox{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+.imgBox li{
+	float: left;
+}
+/*底部*/
+.footer{
+	background:#D4D4D4;
+	text-align: center;
+	padding-top: 54px;
+	padding-bottom: 50px;
+	line-height: 24px;
+ 	margin-top: 40px;
+}
+.footer a{
+	color:#000;
+}
+.footer i{
+	margin: 0 5px;
+	font-style: normal;
+}
+.footer .web{
+	padding-top: 30px;
+}
+.footer .web img{
+	margin:0 12px;
+}
